@@ -1,0 +1,46 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+p {
+    font-size: 1.2rem;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    text-justify: initial;
+ text-justify: auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-items: center;
+justify-items: center;
+border-bottom: 1px solid #EEE;
+border-top: 1px solid #EEE;
+}
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
